@@ -1,0 +1,774 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio of Abu Said - Software Developer</title>
+    <meta name="description"
+        content="Abu Said - Professional Software Developer Portfolio. Full Stack Developer specializing in React, Next.js, Node.js, and more.">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="navbar-container container">
+            <a href="/" class="brand">ABU SAID</a>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#experience">EXPERIENCE</a></li>
+                <li><a href="#skills">SKILLS</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#education">EDUCATION</a></li>
+               
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+
+            <!-- Mobile Menu Button -->
+            <button class="mobile-menu-btn" id="mobileMenuBtn">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <main class="container">
+        <!-- Hero Section -->
+        <section class="hero">
+            <img src="assets/hero.svg" alt="Hero Background" class="hero-bg">
+
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        Hello, <br>
+                        This is <span class="text-pink">ABU SAID</span>
+                        , I'm a Professional <span class="text-primary">Software Developer</span>.
+                    </h1>
+
+                    <div class="social-links">
+                        <a href="https://github.com/said7388" target="_blank" class="social-icon"><i
+                                class="bi bi-github"></i></a>
+                        <a href="https://www.linkedin.com/in/abu-said-bd/" target="_blank" class="social-icon"><i
+                                class="bi bi-linkedin"></i></a>
+                        <a href="https://www.facebook.com/abusaid.riyaz/" target="_blank" class="social-icon"><i
+                                class="bi bi-facebook"></i></a>
+                        <a href="https://leetcode.com/said3812/" target="_blank" class="social-icon"><i
+                                class="bi bi-code-square"></i></a>
+                        <a href="https://twitter.com/said7388" target="_blank" class="social-icon"><i
+                                class="bi bi-twitter-x"></i></a>
+                    </div>
+
+                    <div class="hero-btns">
+                        <a href="#contact" class="btn btn-primary">
+                            <span class="btn-primary-inner">
+                                Contact me <i class="bi bi-person-fill"></i>
+                            </span>
+                        </a>
+
+                        <a href="https://drive.google.com/file/d/1eyutpKFFhJ9X-qpQGKhUNnVRkB5Wer00/view?usp=sharing"
+                            target="_blank" class="btn btn-gradient">
+                            Get Resume <i class="bi bi-download"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="hero-code">
+                    <div class="code-box">
+                        <div class="code-gradient-line">
+                            <div class="gradient-pink-violet"></div>
+                            <div class="gradient-violet-transparent"></div>
+                        </div>
+                        <div class="code-header">
+                            <div class="dot dot-red"></div>
+                            <div class="dot dot-orange"></div>
+                            <div class="dot dot-green"></div>
+                        </div>
+                        <div class="code-content">
+                            <div class="blink">
+                                <span class="text-pink">const</span>
+                                <span class="text-white">coder</span>
+                                <span class="text-pink">=</span>
+                                <span class="text-gray">{</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-white">name:</span>
+                                <span class="text-gray">'</span><span class="text-amber">Abu Said</span><span
+                                    class="text-gray">',</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-white">skills:</span>
+                                <span class="text-gray">['</span><span class="text-amber">React</span><span
+                                    class="text-gray">', '</span><span class="text-amber">NextJS</span><span
+                                    class="text-gray">', '</span><span class="text-amber">Redux</span><span
+                                    class="text-gray">', '</span><span class="text-amber">Express</span><span
+                                    class="text-gray">', '</span><span class="text-amber">NestJS</span><span
+                                    class="text-gray">', '</span><span class="text-amber">MySql</span><span
+                                    class="text-gray">', '</span><span class="text-amber">MongoDB</span><span
+                                    class="text-gray">', '</span><span class="text-amber">Docker</span><span
+                                    class="text-gray">', '</span><span class="text-amber">AWS</span><span
+                                    class="text-gray">'],</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-white">hardWorker:</span>
+                                <span class="text-orange">true</span><span class="text-gray">,</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-white">quickLearner:</span>
+                                <span class="text-orange">true</span><span class="text-gray">,</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-white">problemSolver:</span>
+                                <span class="text-orange">true</span><span class="text-gray">,</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-1 text-green">hireable:</span>
+                                <span class="text-orange">function</span>
+                                <span class="text-gray">() {</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-2 text-orange">return</span>
+                                <span class="text-gray">(</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-3 text-cyan">this.</span><span
+                                    class="text-white">hardWorker</span>
+                                <span class="text-amber">&amp;&amp;</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-3 text-cyan">this.</span><span
+                                    class="text-white">problemSolver</span>
+                                <span class="text-amber">&amp;&amp;</span>
+                            </div>
+                            <div>
+                                <span class="code-indent-3 text-cyan">this.</span><span
+                                    class="text-white">skills.length</span>
+                                <span class="text-amber">&gt;=</span>
+                                <span class="text-orange">5</span>
+                            </div>
+                            <div><span class="code-indent-2 text-gray">);</span></div>
+                            <div><span class="code-indent-1 text-gray">};</span></div>
+                            <div><span class="text-gray">};</span></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <div class="hidden-lg-flex about-header">
+                <span class="about-label">ABOUT ME</span>
+                <span class="about-line"></span>
+            </div>
+
+            <div class="about-grid">
+                <div class="about-text-col">
+                    <p class="section-subtitle">WHO I AM?</p>
+                    <p class="about-description">
+                        My name is ABU SAID. I am a professional and enthusiastic programmer in my daily life. I am a
+                        quick learner with a self-learning attitude. I love to learn and explore new technologies and am
+                        passionate about problem-solving. I love almost all the stacks of web application development
+                        and love to make the web more open to the world. My core skill is based on JavaScript and I love
+                        to do most of the things using JavaScript. I am available for any kind of job opportunity that
+                        suits my skills and interests.
+                    </p>
+                </div>
+                <div class="about-image-col">
+                    <img src="assets/profile.png" alt="Abu Said" class="profile-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="experience-section">
+            <img src="assets/section.svg" alt="Background" class="section-bg">
+
+            <div class="section-header">
+                <div class="header-container">
+                    <span class="header-line"></span>
+                    <span class="header-title">Experiences</span>
+                    <span class="header-line"></span>
+                </div>
+            </div>
+
+            <div class="experience-grid">
+                <div class="lottie-container">
+                    <!-- Lottie Animation Placeholder - Using CSS Animation instead -->
+                    <div class="lottie-placeholder">
+                        <i class="bi bi-code-slash lottie-icon"></i>
+                    </div>
+                </div>
+
+                <div class="glow-card-container">
+                    <!-- Experience 1 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">(Jan 2022 - Present)</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">Software Engineer I</p>
+                                    <p class="exp-company">Teton Private Ltd.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 2 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">(Jun 2021 - Jan 2022)</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">FullStack Developer</p>
+                                    <p class="exp-company">Fiverr (freelance)</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Experience 3 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">(Jan 2018 - Present)</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-briefcase-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">Self Employed</p>
+                                    <p class="exp-company">Code and build something in everyday.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="skills-section">
+            <div class="blur-decoration"></div>
+
+            <div class="skills-gradient-line">
+                <div class="gradient-line"></div>
+            </div>
+
+            <div class="section-header">
+                <div class="header-container">
+                    <span class="header-line"></span>
+                    <span class="header-title">Skills</span>
+                    <span class="header-line"></span>
+                </div>
+            </div>
+
+            <div class="skills-marquee-container">
+                <div class="marquee-track">
+                    <!-- Skills - duplicated for infinite scroll effect -->
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">HTML</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Javascript</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Typescript</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Next JS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Git</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">AWS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Docker</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Figma</span>
+                        </div>
+                    </div>
+                    <!-- Duplicate for seamless loop -->
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">HTML</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">CSS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Javascript</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Typescript</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">React</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Next JS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Tailwind</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">MongoDB</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">MySQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">PostgreSQL</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Git</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">AWS</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Docker</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Firebase</span>
+                        </div>
+                    </div>
+                    <div class="skill-card">
+                        <div class="skill-card-inner">
+                            <div class="skill-gradient-top"></div><span class="skill-name">Figma</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects-section">
+            <div class="blur-decoration blur-left"></div>
+
+            <div class="projects-header">
+                <div class="projects-label-container">
+                    <span class="projects-label">PROJECTS</span>
+                    <span class="projects-line"></span>
+                </div>
+            </div>
+
+            <div class="project-card-container">
+                <!-- Project 1 -->
+                <div class="sticky-card-wrapper" style="top: 100px;">
+                    <div class="project-card">
+                        <div class="code-gradient-line">
+                            <div class="gradient-pink-violet"></div>
+                            <div class="gradient-violet-transparent"></div>
+                        </div>
+                        <div class="project-header">
+                            <div class="project-dots">
+                                <div class="dot dot-red"></div>
+                                <div class="dot dot-orange"></div>
+                                <div class="dot dot-green"></div>
+                            </div>
+                            <p class="project-name">AI Powered Financial App</p>
+                        </div>
+                        <div class="project-content">
+                            <code class="project-code">
+                                <div class="blink">
+                                    <span class="text-pink">const</span>
+                                    <span class="text-white">project</span>
+                                    <span class="text-pink">=</span>
+                                    <span class="text-gray">{</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">name:</span>
+                                    <span class="text-gray">'</span><span class="text-amber">AI Powered Financial App</span><span class="text-gray">',</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">tools:</span>
+                                    <span class="text-gray">['</span><span class="text-amber">Express</span><span class="text-gray">', '</span><span class="text-amber">MongoDB</span><span class="text-gray">', '</span><span class="text-amber">OpenAI API</span><span class="text-gray">', '</span><span class="text-amber">AWS SES</span><span class="text-gray">', '</span><span class="text-amber">AWS S3</span><span class="text-gray">'],</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">myRole:</span>
+                                    <span class="text-orange">Backend Developer</span><span class="text-gray">,</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">Description:</span>
+                                    <span class="text-cyan"> Me and my team built an AI-powered financial mobile application. I have developed API using Express, Typescript, OpenAI, AWS, and MongoDB.</span><span class="text-gray">,</span>
+                                </div>
+                                <div><span class="text-gray">};</span></div>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="sticky-card-wrapper" style="top: 130px;">
+                    <div class="project-card">
+                        <div class="code-gradient-line">
+                            <div class="gradient-pink-violet"></div>
+                            <div class="gradient-violet-transparent"></div>
+                        </div>
+                        <div class="project-header">
+                            <div class="project-dots">
+                                <div class="dot dot-red"></div>
+                                <div class="dot dot-orange"></div>
+                                <div class="dot dot-green"></div>
+                            </div>
+                            <p class="project-name">Travel Agency App</p>
+                        </div>
+                        <div class="project-content">
+                            <code class="project-code">
+                                <div class="blink">
+                                    <span class="text-pink">const</span>
+                                    <span class="text-white">project</span>
+                                    <span class="text-pink">=</span>
+                                    <span class="text-gray">{</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">name:</span>
+                                    <span class="text-gray">'</span><span class="text-amber">Travel Agency App</span><span class="text-gray">',</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">tools:</span>
+                                    <span class="text-gray">['</span><span class="text-amber">NextJS</span><span class="text-gray">', '</span><span class="text-amber">Tailwind CSS</span><span class="text-gray">', '</span><span class="text-amber">Google Maps</span><span class="text-gray">', '</span><span class="text-amber">NestJS</span><span class="text-gray">', '</span><span class="text-amber">MySQL</span><span class="text-gray">'],</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">myRole:</span>
+                                    <span class="text-orange">Full Stack Developer</span><span class="text-gray">,</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">Description:</span>
+                                    <span class="text-cyan"> I have designed and developed a full-stack web app for 2Expedition, a travel agency in Armenia.</span><span class="text-gray">,</span>
+                                </div>
+                                <div><span class="text-gray">};</span></div>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3 -->
+                <div class="sticky-card-wrapper" style="top: 160px;">
+                    <div class="project-card">
+                        <div class="code-gradient-line">
+                            <div class="gradient-pink-violet"></div>
+                            <div class="gradient-violet-transparent"></div>
+                        </div>
+                        <div class="project-header">
+                            <div class="project-dots">
+                                <div class="dot dot-red"></div>
+                                <div class="dot dot-orange"></div>
+                                <div class="dot dot-green"></div>
+                            </div>
+                            <p class="project-name">AI Powered Real Estate</p>
+                        </div>
+                        <div class="project-content">
+                            <code class="project-code">
+                                <div class="blink">
+                                    <span class="text-pink">const</span>
+                                    <span class="text-white">project</span>
+                                    <span class="text-pink">=</span>
+                                    <span class="text-gray">{</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">name:</span>
+                                    <span class="text-gray">'</span><span class="text-amber">AI Powered Real Estate</span><span class="text-gray">',</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">tools:</span>
+                                    <span class="text-gray">['</span><span class="text-amber">React</span><span class="text-gray">', '</span><span class="text-amber">Express</span><span class="text-gray">', '</span><span class="text-amber">OpenAI API</span><span class="text-gray">', '</span><span class="text-amber">Replicate AI</span><span class="text-gray">', '</span><span class="text-amber">Stripe</span><span class="text-gray">'],</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">myRole:</span>
+                                    <span class="text-orange">Full Stack Developer</span><span class="text-gray">,</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">Description:</span>
+                                    <span class="text-cyan"> My team built an AI-based real estate app using Replicate API and OpenAI.</span><span class="text-gray">,</span>
+                                </div>
+                                <div><span class="text-gray">};</span></div>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4 -->
+                <div class="sticky-card-wrapper" style="top: 190px;">
+                    <div class="project-card">
+                        <div class="code-gradient-line">
+                            <div class="gradient-pink-violet"></div>
+                            <div class="gradient-violet-transparent"></div>
+                        </div>
+                        <div class="project-header">
+                            <div class="project-dots">
+                                <div class="dot dot-red"></div>
+                                <div class="dot dot-orange"></div>
+                                <div class="dot dot-green"></div>
+                            </div>
+                            <p class="project-name">Newsroom Management</p>
+                        </div>
+                        <div class="project-content">
+                            <code class="project-code">
+                                <div class="blink">
+                                    <span class="text-pink">const</span>
+                                    <span class="text-white">project</span>
+                                    <span class="text-pink">=</span>
+                                    <span class="text-gray">{</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">name:</span>
+                                    <span class="text-gray">'</span><span class="text-amber">Newsroom Management</span><span class="text-gray">',</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">tools:</span>
+                                    <span class="text-gray">['</span><span class="text-amber">NextJS</span><span class="text-gray">', '</span><span class="text-amber">Material UI</span><span class="text-gray">', '</span><span class="text-amber">Redux</span><span class="text-gray">', '</span><span class="text-amber">Sun Editor</span><span class="text-gray">', '</span><span class="text-amber">Calendar</span><span class="text-gray">'],</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">myRole:</span>
+                                    <span class="text-orange">Full Stack Developer</span><span class="text-gray">,</span>
+                                </div>
+                                <div>
+                                    <span class="code-indent-1 text-white">Description:</span>
+                                    <span class="text-cyan"> My team and I developed a newspaper management dashboard application.</span><span class="text-gray">,</span>
+                                </div>
+                                <div><span class="text-gray">};</span></div>
+                            </code>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="education-section">
+            <img src="assets/section.svg" alt="Background" class="section-bg">
+
+            <div class="gradient-line-container">
+                <div class="gradient-line"></div>
+            </div>
+
+            <div class="section-header">
+                <div class="header-container">
+                    <span class="header-line"></span>
+                    <span class="header-title">Educations</span>
+                    <span class="header-line"></span>
+                </div>
+            </div>
+
+            <div class="education-grid">
+                <div class="lottie-container">
+                    <div class="lottie-placeholder education-icon">
+                        <i class="bi bi-mortarboard-fill lottie-icon"></i>
+                    </div>
+                </div>
+
+                <div class="glow-card-container">
+                    <!-- Education 1 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">2020 - Present</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-book-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">Bachelor Degree</p>
+                                    <p class="exp-company">National University of Bangladesh</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 2 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">2018 - 2020</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-book-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">Higher Secondary Certificate</p>
+                                    <p class="exp-company">Noakhali Islamia Kamil Madrasah</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Education 3 -->
+                    <div class="glow-card" data-glow>
+                        <img src="assets/blur-23.svg" alt="" class="card-blur-bg">
+                        <div class="glow-card-content">
+                            <p class="duration-text">2008 - 2018</p>
+                            <div class="exp-details">
+                                <div class="exp-icon">
+                                    <i class="bi bi-book-fill"></i>
+                                </div>
+                                <div class="exp-info">
+                                    <p class="exp-title">Secondary School Certificate</p>
+                                    <p class="exp-company">Baitus Saif Islamia Madrasah</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <div class="hidden-lg-flex contact-header">
+                <span class="contact-label">CONTACT</span>
+                <span class="contact-line"></span>
+            </div>
+
+            <div class="contact-grid">
+                
+
+                <!-- Contact Info -->
+                <div class="contact-info">
+                    <div class="contact-details">
+                        <p class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-envelope-fill"></i></span>
+                            <span>abusaid7388@gmail.com</span>
+                        </p>
+                        <p class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-telephone-fill"></i></span>
+                            <span>+8801608797655</span>
+                        </p>
+                        <p class="contact-item">
+                            <span class="contact-icon"><i class="bi bi-geo-alt-fill"></i></span>
+                            <span>Middle Badda, Dhaka, Bangladesh - 1212</span>
+                        </p>
+                    </div>
+
+                    <div class="contact-social">
+                        <a href="https://github.com/said7388" target="_blank" class="contact-social-icon">
+                            <i class="bi bi-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/abu-said-bd/" target="_blank" class="contact-social-icon">
+                            <i class="bi bi-linkedin"></i>
+                        </a>
+                       
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-gradient"></div>
+        <div class="footer-container container">
+            <p class="footer-text">
+                © Developer Portfolio by <a href="https://www.linkedin.com/in/abu-said-bd/" target="_blank"
+                    class="footer-link">Abu Said</a>
+            </p>
+            <div class="footer-links">
+                <a href="https://github.com/said7388/developer-portfolio" target="_blank" class="footer-action">
+                    <i class="bi bi-star-fill"></i>
+                    <span>Star</span>
+                </a>
+                <a href="https://github.com/said7388/developer-portfolio/fork" target="_blank" class="footer-action">
+                    <i class="bi bi-git"></i>
+                    <span>Fork</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
